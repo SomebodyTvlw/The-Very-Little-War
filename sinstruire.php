@@ -24,7 +24,7 @@ if($_GET['cours'] == 1) {
 	?>
 	<div class="partie">I) Description de l'univers</div><hr/>
 	<div class="sousPartie">A) Vers l'infiniment petit</div><hr/>
-	<p><img alt="atom" src="images/accueil/atom1.png" style="float: left;width:50px ;heigth:50px;margin: 5px 5px 5px 5px">Dans l'infiniment petit, la matière est constituée d'<span class="important">atomes.</span> Ces atomes peuvent s'assembler pour former des <span class="important">molécules.</span> Un atome est constitué d'un noyau autour duquel les électrons sont en mouvement.
+	<p><img alt="atom" src="images/accueil/atom1.png" style="float: left;width:50px ;heigth:50px;margin: 5px 5px 5px 5px">Dans l'infiniment petit, la matière est constituée d'<span class="important">atomes</span>. Ces atomes peuvent s'assembler pour former des <span class="important">molécules</span>. Un atome est constitué d'un noyau autour duquel les électrons sont en mouvement.
 	L'atome est 100000 fois plus grand que le noyau.<img alt="atom" src="images/accueil/atom5.png" style="float: right; width:50px ;heigth:50px; margin: 5px 5px 5px 5px"><br/><br/><br/>
 	</p>
 	<div class="sousPartie">B) Dans l'infiniment grand</div><hr/>
@@ -79,7 +79,7 @@ elseif($_GET['cours'] == 2) {
 	<div class="partie">I) L'atome</div><hr/>
 	<div class="sousPartie">A) Description du modele de l'atome</div><hr/>
 	<div class="sousSousPartie">1) Constitution de l'atome</div><hr/>
-	<p>Un atome est constitué d'un noyau chargé positivement et d'électrons chargés négativement en mouvement autour du noyau. L'atome est <span class="important">électriquement neutre (autant de charges positives que négatives).</span></p>
+	<p>Un atome est constitué d'un noyau chargé positivement et d'électrons chargés négativement en mouvement autour du noyau. L'atome est <span class="important">électriquement neutre (autant de charges positives que négatives)</span>.</p>
 	<div class="sousSousPartie">2) Noyau de l'atome</div><hr/>
 	<p>Un noyau est constitué de particules appelées nucléons de deux types :<br/>
 	- des  <span class="important">neutrons</span> (neutres)<br/>
@@ -113,20 +113,20 @@ elseif($_GET['cours'] == 2) {
 	</p>
 	<div class="sousSousPartie">2) Remplissage des couches electroniques</div><hr/>
 	<p>Une couche ne peut contenir qu'un nombre limité d'électrons. La couche K (la plus proche du noyau) peut contenir deux électrons au maximum. Les couches L et M peuvent contenir jusqu'à huit électrons chacune (pour un numéro atomique inférieur ou égal à 18 ; les règles se complexifient au-delà).
-	Une couche éléctronique est saturée lorsqu'elle contient son nombre maximal d'électrons. Le remplissage des couches commence par la couche K, puis L, puis M.
+	Une couche électronique est saturée lorsqu'elle contient son nombre maximal d'électrons. Le remplissage des couches commence par la couche K, puis L, puis M.
 	</p>
 	<div class="sousSousPartie">3) Structure électronique</div><hr/>
-	<p>La couche la plus éloignée qui contient des éléctrons est appelée couche externe ou couche de valence. Les électrons de cette couche externe sont les électrons périphériques.<br/>
-	Exemple : Structure éléctronique du sodium<br/>
+	<p>La couche la plus éloignée qui contient des électrons est appelée couche externe ou couche de valence. Les électrons de cette couche externe sont les électrons périphériques.<br/>
+	Exemple : Structure électronique du sodium<br/>
 	<sub>11</sub>Na : (K)<sup>2</sup> (L)<sup>8</sup> (M)<sup>1</sup> : les couches entre parenthèses et le nombre d'électrons en exposant.
 	</p>
-	<div class="partie">II) L'élement chimique</div><hr/>
+	<div class="partie">II) L'élément chimique</div><hr/>
 	<div class="sousPartie">A) Les ions monoatomiques</div><hr/>
 	<p>Lorqu'un atome perd ou gagne un ou plusieurs électrons, il devient un  <span class="important">ion monoatomique</span>. Cette transformation concerne uniquement les électrons, le noyau ne change pas. Un atome et l'ion qui en dérive sont caractérisés par la même valeur de Z. Un atome électriquement neutre qui gagne des électrons deviendra un ion négatif (ou anion). Un atome électriquement neutre qui perd des électrons deviendra un ion positif (ou cation). On écrit en haut à droite du symbole la charge de l'ion : <br/>
 	Cl<sup>-</sup> (atome de Cl ayant gagné un électron)<br/>
 	Fe<sup>3+</sup> (atome de Fe ayant perdu trois électrons)
 	</p>
-	<div class="sousPartie">B) L'élement chimique</div><hr/>
+	<div class="sousPartie">B) L'élément chimique</div><hr/>
 	<p>Toutes les entités chimiques, atomes ou ions, possédant le même Z appartiennent au même élément chimique. Tout élément chimique est représenté par un symbole qui permet de l'identifier.
 	Le symbole est composé d'une lettre majuscule (ex : Iode : I) ou d'une majuscule suivie d'une minuscule (Magnésium : Mg).
 	</p>
@@ -143,7 +143,7 @@ elseif($_GET['cours'] == 3) {
 	<div class="partie">I) Les molécules</div><hr/>
 	<div class="sousPartie">A) Les liaisons entre les molécules</div><hr/>
 	<div class="sousSousPartie">1) La molécule</div><hr/>
-	<p>Les atomes existent très rarement sous forme isolée. Spontanément, ils s'assemblent entre eux pour former des  <span class="important">molécules.</span> Une molécule est un édifice chimique éléctriquement neutre formé d'un nombre
+	<p>Les atomes existent très rarement sous forme isolée. Spontanément, ils s'assemblent entre eux pour former des  <span class="important">molécules</span>. Une molécule est un édifice chimique éléctriquement neutre formé d'un nombre
 	limité  <span class="important">d'atomes liés les uns aux autres</span>.
 	</p>
 	<div class="sousSousPartie">2) La liaison</div><hr/>
@@ -201,12 +201,12 @@ elseif($_GET['cours'] == 4) {
 	<table class="table table-striped table-bordered">
 	<tr><th>Colonne</th><td>I</td><td>II</td><td>III</td><td>IV</td><td>V</td><td>VI</td><td>VII</td><td>VIII</td></tr>
 	<tr><th>Famille</th><td>Métaux alcalins (sauf hydrogène)</td><td>Métaux alcalino-terreux</td><td>Famille du bore</td><td>Famille du carbone</td><td>Famille de l'azote</td><td>Famille de l'oxygène</td><td>Halogènes</td><td>Gaz nobles</td></tr>
-	<tr><th>Nombre d'éléctrons périphériques</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8 (sauf hélium)</td></tr>
+	<tr><th>Nombre d'électrons périphériques</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8 (sauf hélium)</td></tr>
 	</table>
 	</div>
 	</p>
 	<div class="sousPartie">B) Prévision de la charge d'un ion monoatomique</div><hr/>
-	<p>Les structures électroniques en <span class="important">duet</span> (couche K saturée) ou en <span class="important">octet</span> (couche L ou M saturée) sont particulièrement stables. La famille des gaz rares possède une structure éléctronique en duet ou en octet et est inerte.<br/>
+	<p>Les structures électroniques en <span class="important">duet</span> (couche K saturée) ou en <span class="important">octet</span> (couche L ou M saturée) sont particulièrement stables. La famille des gaz rares possède une structure électronique en duet ou en octet et est inerte.<br/>
 	Règle du duet (Z compris entre 2 et 4 inclus) : Ces atomes tendent à recherher une structure en duet pour avoir la couche K saturée.<br/>
 	Règle de l'octet (Z compris entre 4 exclus et 20 inclus) : Ces atomes tendent à rechercher une structure en octet pour avoir la couche L ou M saturée.<br/><br/>
 	Pour trouver la charge des ions : <br/>
@@ -281,8 +281,8 @@ else {
 	<em>Rien n'est indifférent, rien n'est impuissant dans l'univers ; un atome peut tout dissoudre, un atome peut tout sauver !</em><br/><br/><br/><br/>
 	<img src="images/cours/atome.png" alt="atome" class="imageCours" style="float: left;width:100px; height:100px;margin-right:20px"/>
 	L'infiniment petit constitue l'infiniment grand, tout part des ces structures : <span class="important">les atomes</span>. Ces atomes peuvent s'assembler pour former des molécules.<br/>
-	Un atome est constitué d'un noyau autour duquel les éléctrons sont en mouvement.<br/>
-	<br/>L'atome est 100 000 fois plus grand que le noyau. Entre les éléctrons et le noyau, il y a du vide. On dit que l'atome a une <span class="important">structure lacunaire</span>.<br/><br/>
+	Un atome est constitué d'un noyau autour duquel les électrons sont en mouvement.<br/>
+	<br/>L'atome est 100 000 fois plus grand que le noyau. Entre les électrons et le noyau, il y a du vide. On dit que l'atome a une <span class="important">structure lacunaire</span>.<br/><br/>
 	Le monde dans lequel nous vivont est donc principalement du vide.
 	<?php
 }
