@@ -24,17 +24,17 @@ if($_GET['cours'] == 1) {
 	?>
 	<div class="partie">I) Description de l'univers</div><hr/>
 	<div class="sousPartie">A) Vers l'infiniment petit</div><hr/>
-	<p><img alt="atom" src="images/accueil/atom1.png" style="float: left;width:50px ;heigth:50px;margin: 5px 5px 5px 5px">Dans l'infiniment petit, la matière est constituée d'<span class="important">atomes.</span> Ces atomes peuvent s'assembler pour former des <span class="important">molécules.</span> Un atome est constitué d'un noyau autour duquel les éléctrons sont en mouvement.
+	<p><img alt="atom" src="images/accueil/atom1.png" style="float: left;width:50px ;heigth:50px;margin: 5px 5px 5px 5px">Dans l'infiniment petit, la matière est constituée d'<span class="important">atomes.</span> Ces atomes peuvent s'assembler pour former des <span class="important">molécules.</span> Un atome est constitué d'un noyau autour duquel les électrons sont en mouvement.
 	L'atome est 100000 fois plus grand que le noyau.<img alt="atom" src="images/accueil/atom5.png" style="float: right; width:50px ;heigth:50px; margin: 5px 5px 5px 5px"><br/><br/><br/>
 	</p>
 	<div class="sousPartie">B) Dans l'infiniment grand</div><hr/>
-	<p>Dans l'infiniment grand on retiendra les <span class="important">étoiles</span> (dont le soleil), le système solaire qui contient le Soleil et <span class="important">huit planètes</span> (Mercure, Venus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune)
-	, les satellites (comme la Lune), les astéroïdes et les comètes. Entre les planètes et les étoiles, il y a du vide. C'est un système lacunaire. Les galaxies sont un amas d'étoiles.
+	<p>Dans l'infiniment grand, on retiendra les <span class="important">étoiles</span> (dont le soleil), le système solaire qui contient le Soleil et <span class="important">huit planètes</span> (Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus, Neptune)
+	, les satellites (comme la Lune), les astéroïdes et les comètes. Entre les planètes et les étoiles, il y a du vide. C'est un système lacunaire. Les galaxies sont des amas d'étoiles.
 	</p>
 	<div class="table-responsive"><img src="images/cours/systeme.png" alt="univers" class="imageCours"/></div><hr/>
 	<div class="partie">II) Longueurs dans l'univers</div><hr/>
 	<div class="sousPartie">A) Unités de longueur</div><hr/>
-	<p>L'unité de longueur dans le système international (SI) est le mètre. On utilise souvent les sous-multiples.<br/><br/>
+	<p>L'unité de longueur dans le système international (SI) est le mètre. On utilise souvent ses sous-multiples.<br/><br/>
 	<div class="table-responsive">
 	<table class="table table-striped table-bordered">
 	<tr><td>10<sup>9</sup></td><td>10<sup>6</sup></td><td>10<sup>3</sup></td><td>10<sup>0</sup></td><td>10<sup>-3</sup></td><td>10<sup>-6</sup></td><td>10<sup>-9</sup></td><td>10<sup>-12</sup></td><td>10<sup>-15</sup></td></tr>
@@ -44,8 +44,8 @@ if($_GET['cours'] == 1) {
 	</div>
 	</p>
 	<div class="sousPartie">B) Ecriture scientifique</div><hr/>
-	<p>La notation scientifique est l'écriture d'un nombre sous la forme d'un produit du type a*10<sup>n</sup> avec a un nombre décimal tel que 1 inférieur ou égal à 1 et strictement supérieur à 10.
-	et n étant un nombre entier.<br/>
+	<p>La notation scientifique est l'écriture d'un nombre sous la forme d'un produit du type a*10<sup>n</sup> avec a un nombre décimal supérieur ou égal à 1 et strictement inférieur à 10.
+	et n un nombre entier.<br/>
 	Ex : Rayon de la Terre : 6378 km = 6.378*10<sup>3</sup> km
 	</p>
 	<div class="sousPartie">C) Ordre de grandeur</div><hr/>
@@ -53,23 +53,23 @@ if($_GET['cours'] == 1) {
 	Ex : soit 1.52*10<sup>4</sup> = 1*10<sup>4</sup> => ordre de grandeur : 10<sup>4</sup><br/>
 	soit 8.2*10<sup>4</sup> = 10*10<sup>4</sup> = 1*10<sup>5</sup> => ordre de grandeur : 10<sup>5</sup><br/>
 	soit 8.2*10<sup>-3</sup> = 10*10<sup>-3</sup> = 10<sup>1-3</sup> => ordre de grandeur : 10<sup>-2</sup><br/>
-	Pour les valeurs de a strictement inférieures à 5, on arrondit à 1 puis on ajoute la puissance.<br/>
-	Pour les valeurs de a supérieures ou égales à 5, on arrondit à 10 puis on ajoute la puissance.
+	Pour les valeurs de a strictement inférieures à 5, on arrondit en dessous : 10<sup>n</sup>.<br/>
+	Pour les valeurs de a supérieures ou égales à 5, on arrondit au-dessus : 10<sup>n+1</sup>.
 	</p>
-	<div class="partie">III) L'année lumière</div><hr/>
+	<div class="partie">III) L'année-lumière</div><hr/>
 	<div class="sousPartie">A) Propagation et vitesse de la lumière</div><hr/>
-	<p>La lumière se propage en ligne droite dans un milieu homogène et transparent. La lumière se propage à vitesse finie. La vitesse de la lumière dans le vide ou dans l'air est de : <span class="important">c = 3.00*10<sup>8</sup> m/s</span>
+	<p>La lumière se propage en ligne droite dans un milieu homogène (identique en tout point) et transparent, à vitesse finie. La vitesse de la lumière dans le vide ou dans l'air est de : <span class="important">c = 3.00*10<sup>8</sup> m/s</span>
 	</p>
-	<div class="sousPartie">B) L'année lumière</div><hr/>
-	<p>L'année lumière est la <span class="important">distance parcourue par la lumière en une année.</span><br/>
+	<div class="sousPartie">B) L'année-lumière</div><hr/>
+	<p>L'année lumière est la <span class="important">distance parcourue par la lumière en une année</span>.<br/>
 	v = d/t => d = v*t<br/>
 	t = une année = 365*24*3600<br/>
 	d = 3*10<sup>8</sup>*(365*24*3600)<br/>
 	d = 9.47*10<sup>15</sup> m<br/>
-	L'ordre de grandeur de l'année lumiére est de 10<sup>16</sup>m ou 10<sup>13</sup>km
+	L'ordre de grandeur de l'année-lumière est de 10<sup>16</sup> m ou 10<sup>13</sup> km.
 	</p>
 	<div class="sousPartie">C) Voir loin, c'est voir dans le passé</div><hr/>
-	<p>L'étoile polaire est située à 440 a.l (années lumiéres) de la Terre. Cette lumière a voyagé pendant 440 ans avant d'arriver sur Terre. Donc on la voit telle qu'elle était il y a 440 ans.
+	<p>L'étoile polaire est située à 440 al (années-lumière) de la Terre. Sa lumière a donc voyagé pendant 440 ans avant d'arriver sur Terre. Par conséquent, on la voit telle qu'elle était il y a 440 ans.
 	Pour des galaxies éloignées, nous les voyons telles qu'elles étaient il y a 12 milliards d'années.
 	</p>
 	<?php
