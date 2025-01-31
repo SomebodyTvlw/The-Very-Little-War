@@ -25,10 +25,10 @@ if($_GET['cours'] == 1) {
 	<div class="partie">I) Description de l'univers</div><hr/>
 	<div class="sousPartie">A) Vers l'infiniment petit</div><hr/>
 	<p><img alt="atom" src="images/accueil/atom1.png" style="float: left;width:50px ;heigth:50px;margin: 5px 5px 5px 5px">Dans l'infiniment petit, la matière est constituée d'<span class="important">atomes</span>. Ces atomes peuvent s'assembler pour former des <span class="important">molécules</span>. Un atome est constitué d'un noyau autour duquel les électrons sont en mouvement.
-	L'atome est 100000 fois plus grand que le noyau.<img alt="atom" src="images/accueil/atom5.png" style="float: right; width:50px ;heigth:50px; margin: 5px 5px 5px 5px"><br/><br/><br/>
+	L'atome est 100 000 fois plus grand que son noyau.<img alt="atom" src="images/accueil/atom5.png" style="float: right; width:50px ;heigth:50px; margin: 5px 5px 5px 5px"><br/><br/><br/>
 	</p>
 	<div class="sousPartie">B) Dans l'infiniment grand</div><hr/>
-	<p>Dans l'infiniment grand, on retiendra les <span class="important">étoiles</span> (dont le soleil), le système solaire qui contient le Soleil et <span class="important">huit planètes</span> (Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus, Neptune)
+	<p>Dans l'infiniment grand, on retiendra les <span class="important">étoiles</span> (dont le Soleil), le système solaire qui contient le Soleil et <span class="important">huit planètes</span> (Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus, Neptune)
 	, les satellites (comme la Lune), les astéroïdes et les comètes. Entre les planètes et les étoiles, il y a du vide. C'est un système lacunaire. Les galaxies sont des amas d'étoiles.
 	</p>
 	<div class="table-responsive"><img src="images/cours/systeme.png" alt="univers" class="imageCours"/></div><hr/>
@@ -43,9 +43,8 @@ if($_GET['cours'] == 1) {
 	</table>
 	</div>
 	</p>
-	<div class="sousPartie">B) Ecriture scientifique</div><hr/>
-	<p>La notation scientifique est l'écriture d'un nombre sous la forme d'un produit du type a*10<sup>n</sup> avec a un nombre décimal supérieur ou égal à 1 et strictement inférieur à 10.
-	et n un nombre entier.<br/>
+	<div class="sousPartie">B) Écriture scientifique</div><hr/>
+	<p>La notation scientifique est l'écriture d'un nombre sous la forme d'un produit du type a*10<sup>n</sup> avec a un nombre décimal supérieur ou égal à 1 et strictement inférieur à 10 et n un nombre entier. Elle permet d'écrire facilement de très petits ou très grands nombres.<br/>
 	Ex : Rayon de la Terre : 6378 km = 6.378*10<sup>3</sup> km
 	</p>
 	<div class="sousPartie">C) Ordre de grandeur</div><hr/>
@@ -53,12 +52,12 @@ if($_GET['cours'] == 1) {
 	Ex : soit 1.52*10<sup>4</sup> = 1*10<sup>4</sup> => ordre de grandeur : 10<sup>4</sup><br/>
 	soit 8.2*10<sup>4</sup> = 10*10<sup>4</sup> = 1*10<sup>5</sup> => ordre de grandeur : 10<sup>5</sup><br/>
 	soit 8.2*10<sup>-3</sup> = 10*10<sup>-3</sup> = 10<sup>1-3</sup> => ordre de grandeur : 10<sup>-2</sup><br/>
-	Pour les valeurs de a strictement inférieures à 5, on arrondit en dessous : 10<sup>n</sup>.<br/>
+	Pour les valeurs de a strictement inférieures à 5, on arrondit en-dessous : 10<sup>n</sup>.<br/>
 	Pour les valeurs de a supérieures ou égales à 5, on arrondit au-dessus : 10<sup>n+1</sup>.
 	</p>
 	<div class="partie">III) L'année-lumière</div><hr/>
 	<div class="sousPartie">A) Propagation et vitesse de la lumière</div><hr/>
-	<p>La lumière se propage en ligne droite dans un milieu homogène (identique en tout point) et transparent, à vitesse finie. La vitesse de la lumière dans le vide ou dans l'air est de : <span class="important">c = 3.00*10<sup>8</sup> m/s</span>
+	<p>La lumière se propage en ligne droite dans un milieu homogène (identique en tout point) et transparent, à vitesse finie. La vitesse de la lumière dans le vide ou dans l'air est de : <span class="important">c = 3.00*10<sup>8</sup> m/s</span>.
 	</p>
 	<div class="sousPartie">B) L'année-lumière</div><hr/>
 	<p>L'année-lumière est la <span class="important">distance parcourue par la lumière en une année</span>.<br/>
@@ -77,14 +76,14 @@ if($_GET['cours'] == 1) {
 elseif($_GET['cours'] == 2) {
 	?>
 	<div class="partie">I) L'atome</div><hr/>
-	<div class="sousPartie">A) Description du modele de l'atome</div><hr/>
+	<div class="sousPartie">A) Description du modèle de l'atome</div><hr/>
 	<div class="sousSousPartie">1) Constitution de l'atome</div><hr/>
-	<p>Un atome est constitué d'un noyau chargé positivement et d'électrons chargés négativement en mouvement autour du noyau. L'atome est <span class="important">électriquement neutre (autant de charges positives que négatives)</span>.</p>
+	<p>Un atome est constitué d'un noyau chargé positivement et d'électrons chargés négativement en mouvement autour du noyau. L'atome est <span class="important">électriquement neutre</span> (autant de charges positives que négatives).</p>
 	<div class="sousSousPartie">2) Noyau de l'atome</div><hr/>
 	<p>Un noyau est constitué de particules appelées nucléons de deux types :<br/>
 	- des  <span class="important">neutrons</span> (neutres)<br/>
 	- des  <span class="important">protons</span> (chargés positivement)<br/>
-	Comme l'atome est électriquement neutre, il y autant de charges + que de charges -. Il y a donc autant d'électrons que de protons. La charge électrique portée par le proton est appelée charge élémentaire (e).
+	Comme l'atome est électriquement neutre, il y autant de charges + que de charges -, c'est-à-dire autant d'électrons que de protons. La charge électrique portée par le proton est appelée charge élémentaire (e).
 	e = 1.6*10<sup>-19</sup> C
 	</p>
 	<div class="sousSousPartie">3) Représentation symbolique de l'atome</div><hr/>
@@ -101,28 +100,27 @@ elseif($_GET['cours'] == 2) {
 	Dimensions de l'atome d'hydrogène : <br/>
 	diamètre du noyau : d<sub>N</sub> = 2.4*10<sup>-15</sup> m<br/>
 	diamètre de l'atome : d<sub>A</sub> = 1.1*10<sup>-10</sup> m<br/>
-	Le diamètre de l'atome est donc 100 000 fois plus grand que celui de son noyau.
+	Le diamètre de l'atome est donc de l'ordre de 100 000 fois plus grand que celui de son noyau.
 	</p>
 	<div class="sousSousPartie">2) Masse de l'atome</div><hr/>
-	<p>La masse de l'atome est égale au nombre de nucléons (A) multipliée par leur masse qui est approximativement la même pour les protons et les neutrons. On ne prend pas en compte la masse des électrons dans le calcul car elle est négligable (la masse d'un électron est de l'ordre de 1000 fois plus petite que celle d'un proton).
+	<p>La masse de l'atome est égale au nombre de nucléons (A) multipliée par leur masse, qui est approximativement la même pour les protons et les neutrons. On ne prend pas en compte la masse des électrons dans le calcul car elle est négligable (la masse d'un électron est de l'ordre de 1 000 fois plus petite que celle d'un proton).
 	</p>
 	<div class="sousPartie">C) Répartition électronique</div><hr/>
 	<div class="sousSousPartie">1) Les couches électroniques</div><hr/>
-	<p>La répartition des électrons n'est pas homogène. Dans un modèle simplifié, on peut considérer qu'ils se concentrent sur des couches appelées couches électroniques. Trois couches suffisent pour répartir
-	les électrons des éléments étudiés au lyçée (Z <= 18). Chaque couche est repérée par une lettre : K, L, M.
+	<p>La répartition des électrons n'est pas homogène. Dans un modèle simplifié, on peut considérer qu'ils se concentrent sur des couches appelées couches électroniques. Trois couches suffisent pour répartir les électrons des éléments étudiés au lyçée (Z <= 18). Chaque couche est repérée par une lettre : K, L, M.
 	</p>
-	<div class="sousSousPartie">2) Remplissage des couches electroniques</div><hr/>
-	<p>Une couche ne peut contenir qu'un nombre limité d'électrons. La couche K (la plus proche du noyau) peut contenir deux électrons au maximum. Les couches L et M peuvent contenir jusqu'à huit électrons chacune (pour un numéro atomique inférieur ou égal à 18 ; les règles se complexifient au-delà).
+	<div class="sousSousPartie">2) Remplissage des couches électroniques</div><hr/>
+	<p>Une couche ne peut contenir qu'un nombre limité d'électrons. La couche K (la plus proche du noyau) peut contenir deux électrons au maximum. Les couches L et M peuvent contenir jusqu'à huit électrons chacune (ceci vaut pour un numéro atomique inférieur ou égal à 18 ; les règles se complexifient au-delà).
 	Une couche électronique est saturée lorsqu'elle contient son nombre maximal d'électrons. Le remplissage des couches commence par la couche K, puis L, puis M.
 	</p>
 	<div class="sousSousPartie">3) Structure électronique</div><hr/>
-	<p>La couche la plus éloignée qui contient des électrons est appelée couche externe ou couche de valence. Les électrons de cette couche externe sont les électrons périphériques.<br/>
+	<p>La couche la plus éloignée qui contient des électrons est appelée couche externe ou couche de valence. Les électrons de cette couche sont les électrons périphériques.<br/>
 	Exemple : Structure électronique du sodium<br/>
 	<sub>11</sub>Na : (K)<sup>2</sup> (L)<sup>8</sup> (M)<sup>1</sup> : les couches entre parenthèses et le nombre d'électrons en exposant.
 	</p>
 	<div class="partie">II) L'élément chimique</div><hr/>
 	<div class="sousPartie">A) Les ions monoatomiques</div><hr/>
-	<p>Lorqu'un atome perd ou gagne un ou plusieurs électrons, il devient un  <span class="important">ion monoatomique</span>. Cette transformation concerne uniquement les électrons, le noyau ne change pas. Un atome et l'ion qui en dérive sont caractérisés par la même valeur de Z. Un atome électriquement neutre qui gagne des électrons deviendra un ion négatif (ou anion). Un atome électriquement neutre qui perd des électrons deviendra un ion positif (ou cation). On écrit en haut à droite du symbole la charge de l'ion : <br/>
+	<p>Lorqu'un atome perd ou gagne un ou plusieurs électrons, il devient un  <span class="important">ion monoatomique</span>. Cette transformation concerne uniquement les électrons, le noyau ne change pas. Un atome et l'ion qui en dérive sont donc caractérisés par la même valeur de Z. Un atome électriquement neutre qui gagne des électrons deviendra un ion négatif (ou anion). Un atome électriquement neutre qui perd des électrons deviendra un ion positif (ou cation). On écrit en haut à droite du symbole la charge de l'ion : <br/>
 	Cl<sup>-</sup> (atome de Cl ayant gagné un électron)<br/>
 	Fe<sup>3+</sup> (atome de Fe ayant perdu trois électrons)
 	</p>
@@ -143,25 +141,24 @@ elseif($_GET['cours'] == 3) {
 	<div class="partie">I) Les molécules</div><hr/>
 	<div class="sousPartie">A) Les liaisons entre les molécules</div><hr/>
 	<div class="sousSousPartie">1) La molécule</div><hr/>
-	<p>Les atomes existent très rarement sous forme isolée. Spontanément, ils s'assemblent entre eux pour former des  <span class="important">molécules</span>. Une molécule est un édifice chimique éléctriquement neutre formé d'un nombre
+	<p>La plupart des atomes existent très rarement sous forme isolée. Spontanément, ils s'assemblent entre eux pour former des  <span class="important">molécules</span>. Une molécule est un édifice chimique éléctriquement neutre formé d'un nombre
 	limité  <span class="important">d'atomes liés les uns aux autres</span>.
 	</p>
 	<div class="sousSousPartie">2) La liaison</div><hr/>
-	<p>La liaison entre atomes est symbolisée par un tiret ex: H-H<br/>
-	Lorsque les atomes subissent des transformations (en ions monoatomiques ou lorsqu'ils établissent des liaisons entre eux), ils le font de manière à saturer leur couche électronique externe. Les atomes dont la couche 
-	externe est déjà saturée ne donnent pas d'ions monoatomiques et ne pourront pas se lier et donc faire de molécules. Ils sont dits chimiquement stables. Il s'agit des gaz nobles ou gaz rares, qui figurent dans la dernière colonne du tableau périodique. Le nombre de liaisons que peut former un atome est  <span class="important">égal au nombre d'électrons qu'il doit acquérir ou perdre pour saturer sa couche externe</span>. 
+	<p>Une liaison entre deux atomes est crée par la mise en commun de deux électrons, un venant de chaque atome. La liaison entre atomes est symbolisée par un tiret. Ex : H-H<br/>
+	Lorsque les atomes subissent des transformations (en ions monoatomiques ou lorsqu'ils établissent des liaisons entre eux), ils le font de manière à saturer leur couche électronique externe. Les atomes dont la couche externe est déjà saturée ne donnent pas d'ions monoatomiques et ne pourront pas se lier et donc former des molécules. Ils sont dits chimiquement stables. Il s'agit des gaz nobles ou gaz rares, qui figurent dans la dernière colonne du tableau périodique. Le nombre de liaisons que peut former un atome est  <span class="important">égal au nombre d'électrons qu'il doit acquérir ou perdre (selon ce qui nécessite le moins de changement) pour saturer sa couche externe</span>. 
 	</p>
 	<div class="sousPartie">B) Représentation de la molécule</div><hr/>
 	<p><span class="important">La formule brute</span> d'une molécule est l'écriture la plus compacte décrivant les atomes et leurs nombres.<br/>
-	Ex: CH<sub>4</sub><br/>
-	<span class="important">La formule développée</span> indique l'ordre des atomes, et les liaisons y sont représentées par des tirets et les doubles liaisons (deux liaisons entre les deux mêmes atomes) par des doubles tirets.<br/>
+	Ex : CH<sub>4</sub>, le méthane, qui comporte un atome de carbone (C) et quatre atomes d'hydrogène (H)<br/>
+	<span class="important">La formule développée</span> indique l'agencement des atomes. Les liaisons y sont représentées par des tirets et les doubles liaisons (deux liaisons entre les deux mêmes atomes) par des doubles tirets.<br/>
 	<img src="images/cours/developpee.gif" alt="developpee"/><br/>
-	<span class="important">La formule semi-développée</span> : une formule développée simplifiée, notamment, les liaisons avec les atomes d'hydrogène ne sont pas représentées. À la place, on écrit à côté du symbole des atomes liés à des atomes d'hydrogène le symbole H avec le nombre d'atomes d'hydrogène en question.<br/>
-	Ex: CH<sub>2</sub>=CH<sub>2</sub>	   
+	<span class="important">La formule semi-développée</span> est une version simplifiée de la formule développée. Notamment, les liaisons avec les atomes d'hydrogène (très courantes) ne sont pas représentées. À la place, on écrit à côté du symbole des atomes liés à des atomes d'hydrogène le symbole H avec le nombre d'atomes d'hydrogène en question.<br/>
+	Ex : CH<sub>2</sub>=CH<sub>2</sub>	   
 	</p>
 	<div class="sousPartie">C) Isomères</div><hr/>
 	<p>À une formule brute peut correspondre plusieurs formules développées (ou semi-développées). Ce sont des isomères. Les molécules de ces formules développées différentes n'ont pas les mêmes propriétés physiques et chimiques.<br/>
-	Ex: CH<sub>3</sub>-CH<sub>2</sub>-OH et CH<sub>3</sub>-O-CH<sub>3</sub>
+	Ex : CH<sub>3</sub>-CH<sub>2</sub>-OH et CH<sub>3</sub>-O-CH<sub>3</sub>
 	</p>
 	<div class="partie">II) Structure des molécules organiques</div><hr/>
 	<p>Les molécules organiques sont essentiellement constituées de carbone et d'hydrogène (éventuellement d'oxygène et d'azote). Une molécule organique est formée d'une chaîne d'atomes de carbone appelée chaîne carbonée sur laquelle se fixent les autres atomes. La chaîne carbonée peut être linéaire, cyclique ou ramifiée. Le type de chaîne influe sur les propriétés physiques et chimiques.<br/>
@@ -176,11 +173,10 @@ elseif($_GET['cours'] == 4) {
 	?>
 	<div class="partie">I) Les éléments chimiques de l'univers</div><hr/>
 	<div class="sousPartie">A) L'origine des éléments</div><hr/>
-	<p>Selon la théorie du Big Bang, les premiers éléments, l'hydrogène et l'hélium, se sont formés il y a 13.7 milliards d'années lors de l'apparition de l'univers. Les éléments ayant un numéro atomique Z plus élevé comme le carbone, l'oxygène ou le fer
-	sont ensuite nés au cœur d'étoiles dans des conditions extrêmes de température et de pression (c'est la fusion nucléaire). En fin de vie, les étoiles les plus massives explosent (phénomène nommé supernova) et dispersent les éléments.
+	<p>Selon la théorie du Big Bang, les premiers éléments, l'hydrogène et l'hélium, se sont formés il y a 13.7 milliards d'années lors de l'apparition de l'Univers. Les éléments ayant un numéro atomique Z plus élevé comme le carbone, l'oxygène ou le fer sont ensuite nés au cœur d'étoiles dans des conditions extrêmes de température et de pression (c'est la fusion nucléaire). En fin de vie, les étoiles les plus massives explosent (phénomène nommé supernova) et dispersent les éléments.
 	</p>
 	<div class="sousPartie">B) Conservation des éléments</div><hr/>
-	<p>Les réactions chimiques se font sans apparition ni perte d'éléments. Les éléments mis en jeu peuvent éventuellement changer de forme, c'est à dire passer d'atome à ion ou inversement, ou se lier ou se délier avec d'autres atomes. Il y a toujours <span class="important">conservation des éléments au cours d'une réaction chimique</span>.
+	<p>Les réactions chimiques se font sans apparition ni perte d'éléments. Les éléments mis en jeu peuvent éventuellement changer de forme, c'est à dire passer d'atome à ion ou inversement, ou se lier ou se délier avec d'autres atomes. Il y a toujours <span class="important">conservation des éléments au cours d'une réaction chimique</span>. Seule une réaction nucléaire (comme au cœur d'une étoile ou dans un réacteur nucléaire) peut changer un élément.
 	</p>
 	<div class="partie">II) Classification périodique</div><hr/>
 	<div class="sousPartie">A) Classification historique de Mendeleïev</div><hr/>
@@ -188,15 +184,14 @@ elseif($_GET['cours'] == 4) {
 	Mendeleïev eut l'idée de classer les éléments connus à son époque en colonnes et en lignes par ordre de masse croissante, de façon à ce que les éléments ayant des <span class="important">propriétés chimiques semblables</span> figurent dans une <span class="important">même colonne</span>. Il prédit l'existence de certains éléments inconnus à son époque pour expliquer certaines cases vides dans son classement.
 	</p>
 	<div class="sousPartie">B) Classification moderne</div><hr/>
-	<p>Elle est constituée actuellement de 18 colonnes et 7 lignes. Les 118 éléments chimiques naturels ou artificiels connus sont rangés en ligne par ordre croissant. Le remplissage progressif d'une ligne correspond au
-	remplissage progressif d'une couche électronique. Un changement de ligne s'effectue quand la couche est saturée. Les lignes sont appelées des périodes. Dans une même colonne, les atomes ont le <span class="important">même nombre d'électrons sur leur couche électronique</span>.<br/>
+	<p>Elle est actuellement constituée de 18 colonnes et 7 lignes. Les 118 éléments chimiques naturels ou artificiels connus sont rangés en lignes par ordre croissant. Le remplissage progressif d'une ligne correspond au remplissage progressif d'une couche électronique. Un changement de ligne s'effectue quand la couche est saturée. Les lignes sont appelées des périodes. Dans une même colonne, les atomes ont le <span class="important">même nombre d'électrons sur leur couche électronique</span>.<br/>
 	<div class="table-responsive"><img alt="tableau_periodiqueMini" src="images/cours/tableau_periodique.png"/></div>
 	</p>
 	<div class="partie">III) Utilisation de la classification</div><hr/>
 	<div class="sousPartie">A) Notion de famille chimique</div><hr/>
 	<p>Les propriétés chimiques des éléments dépendent essentiellement du nombre d'électrons sur leur couche externe. Or, les éléments d'une même colonne ont le même nombre d'électrons sur leur couche externe.
 	Ils auront donc des propriétés semblables. On dit qu'une colonne constitue une famille chimique.<br/>
-	Les familles chimiques pour les trois premières lignes sont les suivantes : <br/><br/>
+	Les familles chimiques sont les suivantes (les nombres d'électrons donnés ne valent pas pour les métaux de transition) : <br/><br/>
 	<div class="table-responsive">
 	<table class="table table-striped table-bordered">
 	<tr><th>Colonne</th><td>I</td><td>II</td><td>III</td><td>IV</td><td>V</td><td>VI</td><td>VII</td><td>VIII</td></tr>
@@ -206,7 +201,7 @@ elseif($_GET['cours'] == 4) {
 	</div>
 	</p>
 	<div class="sousPartie">B) Prévision de la charge d'un ion monoatomique</div><hr/>
-	<p>Les structures électroniques en <span class="important">duet</span> (couche K saturée) ou en <span class="important">octet</span> (couche L ou M saturée) sont particulièrement stables. La famille des gaz rares possède une structure électronique en duet ou en octet et est inerte.<br/>
+	<p>Les structures électroniques en <span class="important">duet</span> (couche K saturée) ou en <span class="important">octet</span> (couche L ou M saturée) sont particulièrement stables. La famille des gaz rares possède une structure électronique en duet ou en octet et est inerte (n'interagit pas).<br/>
 	Règle du duet (Z compris entre 2 et 4 inclus) : Ces atomes tendent à recherher une structure en duet pour avoir la couche K saturée.<br/>
 	Règle de l'octet (Z compris entre 4 exclus et 20 inclus) : Ces atomes tendent à rechercher une structure en octet pour avoir la couche L ou M saturée.<br/><br/>
 	Pour trouver la charge des ions : <br/>
@@ -222,8 +217,7 @@ elseif($_GET['cours'] == 5) {
 	<p>Dans un morceau visible de carbone, il y a un très grand nombre d'atomes de carbone. L'utilisation de très grand nombres n'étant pas aisée, les chimistes effectuent un changement d'échelle et introduisent une nouvelle grandeur : la quantité de matière, et son unité qui est <span class="important">la mole</span>.
 	</p>
 	<div class="sousPartie">B) La mole</div><hr/>
-	<p>Pour faciliter le comptage d'un grand nombre d'objets identiques, on les regroupe en paquets. De même, en chimie, les atomes, les molécules, les ions sont regroupés en "paquets". Chacun de ces 
-	paquets contient <span class="important">6.02*10<sup>23</sup> particules</span> et on appelle ce paquet une mole. Ainsi, dans une mole d'atomes, il y a 6.02*10<sup>23</sup> atomes. La quantité de matière est notée n et mol est l'unité.
+	<p>Pour faciliter le comptage d'un grand nombre d'objets identiques, on les regroupe en paquets. De même, en chimie, les atomes, les molécules, les ions sont regroupés en "paquets". Chacun de ces paquets contient <span class="important">6.02*10<sup>23</sup> particules</span> et on appelle ce paquet une mole. Ainsi, dans une mole d'atomes, il y a 6.02*10<sup>23</sup> atomes. La quantité de matière est notée n et mol en est l'unité.
 	</p>
 	<div class="sousPartie">C) Constante d'Avogadro</div><hr/>
 	<p>Le nombre d'entités par mole est la constante d'Avogadro notée N<sub>A</sub><br/>
@@ -250,8 +244,7 @@ elseif($_GET['cours'] == 5) {
 	</p>
 	<div class="partie">III) Cas des solutions</div><hr/>
 	<div class="sousPartie">A) Définition</div><hr/>
-	<p>Une solution est obtenue par dissolution d'une espèce chimique dans <span class="important">un solvant</span> (un liquide). Si le solvant est l'eau, la solution est appelée <span class="important">solution aqueuse</span>. Une fois dissoute, l'espèce chimique
-	s'appelle <span class="important">le soluté</span>. Une solution peut contenir plusieurs solutés différents.
+	<p>Une solution est obtenue par dissolution d'une espèce chimique dans <span class="important">un solvant</span> (un liquide). Si le solvant est l'eau, la solution est appelée <span class="important">solution aqueuse</span>. Une fois dissoute, l'espèce chimique s'appelle <span class="important">le soluté</span>. Une solution peut contenir plusieurs solutés différents.
 	</p>
 	<div class="sousPartie">B) Dissolution d'une espèce moléculaire ou ionique</div><hr/>
 	<p>La formule chimique se note différement selon que l'espèce est en solution ou non. Avant la dissolution, on écrit la formule chimique en la faisant suivre de son état physique entre parenthèses :
@@ -262,7 +255,7 @@ elseif($_GET['cours'] == 5) {
 	Une solution de chlorure de calcium contient les ions Ca<sup>2+</sup> et Cl<sup>-</sup>, la solution s'écrit Ca<sup>2+</sup> (aq) + 2 Cl<sup>-</sup> (aq)
 	</p>
 	<div class="sousPartie">C) Solution saturée</div><hr/>
-	<p>Pour une température donnée, il existe une masse maximale que l'on peut dissoudre dans 1 L de solution. Au delà de cette masse, le soluté ne se dissout plus et la solution est dite saturée.
+	<p>Pour une température donnée, il existe une masse de soluté maximale que l'on peut dissoudre dans 1 L de solution. Au delà de cette masse, le soluté ne se dissout plus et la solution est dite saturée.
 	</p>
 	<div class="sousPartie">D) Concentration</div><hr/>
 	<p>Les liquides corporels (ex : le sang) sont des solutions aqueuses qui contiennent de nombreux solutés ioniques et moléculaires. Ils jouent tous un rôle déterminant pour le bon fonctionnement des organes et donc pour la santé. Il est en conséquence important de pouvoir mesurer leur quantité. Pour cela, on utilise deux grandeurs : la concentration molaire et la concentration massique.
